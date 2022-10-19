@@ -1,0 +1,17 @@
+server:
+  port: ${PORT:8080}
+
+
+
+
+httpclient:
+  request:
+    connection_timeout: 1000
+    read-timeout: 1000
+    write-timeout: 1000
+monitoring:
+  server:
+    - localhost:8080
+    - localhost:8081
+    - localhost:8082
+    - localhost:8083
